@@ -11,6 +11,11 @@
       android:id="@+id/viewFinder"
       android:layout_width="match_parent"
       android:layout_height="match_parent" />
+  
+  <com.tflite.ml_starter_app.OverlayView
+      android:id="@+id/overlay"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
 
   <TextView
       android:id="@+id/tvResult"
