@@ -10,9 +10,13 @@ espresso-core = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
 constraintlayout = "2.1.4"
+tensorflow-lite-gpu = "2.9.0"
+play-services-tflite-gpu = "16.2.0"
+play-services-tflite-support = "16.1.0"
 tensorflow-lite-metadata = "0.4.4"
 tensorflow-lite-support = "0.4.4"
 tensorflow-lite-task-vision = "0.4.4"
+tensorflow-lite-task-vision-play-services = "0.4.2"
 
 [libraries]
 androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camera-view" }
@@ -25,9 +29,13 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+tensorflow-lite-gpu = { module = "org.tensorflow:tensorflow-lite-gpu", version.ref = "tensorflow-lite-gpu" }
+play-services-tflite-gpu = { module = "com.google.android.gms:play-services-tflite-gpu", version.ref = "play-services-tflite-gpu" }
+play-services-tflite-support = { module = "com.google.android.gms:play-services-tflite-support", version.ref = "play-services-tflite-support" }
 tensorflow-lite-metadata = { module = "org.tensorflow:tensorflow-lite-metadata", version.ref = "tensorflow-lite-metadata" }
 tensorflow-lite-support = { module = "org.tensorflow:tensorflow-lite-support", version.ref = "tensorflow-lite-support" }
 tensorflow-lite-task-vision = { module = "org.tensorflow:tensorflow-lite-task-vision", version.ref = "tensorflow-lite-task-vision" }
+tensorflow-lite-task-vision-play-services = { module = "org.tensorflow:tensorflow-lite-task-vision-play-services", version.ref = "tensorflow-lite-task-vision-play-services" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
